@@ -30,22 +30,19 @@ button:hover{
 </style>
 <center>
 <body background="background.jpg" style="color: white; font-size: 50px;">
- <form onsubmit="return myFunc()">
-
-   <center>
+  <p>If button not working please refresh</p>
+ <form onsubmit="return myFunc()"><center>
   <script>
-
-<!--function myFunc(){
+function myFunc(){
   event.preventDefault();
-Console.log("good job")-->
-
+Console.log("good job")
+}
 
 
   </script>
 
 <div>
- <p>If Button Not Working Pls Refresh</p>
-  
+
 <label>Full Name</label>
 <input type="text" required />
 <br>
@@ -56,10 +53,21 @@ Console.log("good job")-->
 <input type="email" required />
 <br>
 <a href="https://minecraftshirt.github.io/pythonRMC/">
-  <input type="submit" value="Submit" size="200px">
+  <input type="submit" value="Submit" size="40px">
 </a>
+  <script>
+    function example(){
+        alert('test')
+    }
+</script>
+<script>
+    var form = document.getElementById('div')
 
-
+    div.addEventListener('submit',function(event){
+      event.preventDefault()
+    }
+    
+  </script>
 
   <!--"alert ('Scroll to click a button')-->
 
